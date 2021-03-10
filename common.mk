@@ -16,3 +16,18 @@
 
 # Vendor overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/common/overlay
+
+# Add Apps
+PRODUCT_PACKAGES += \
+	Eleven \
+	GoogleCamera \
+	GmsCore \
+	GsfProxy \
+	MozillaNlpBackend \
+	NominatimNlpBackend \
+	FakeStore \
+	FDroid \
+	AuroraStore \
+	Firefox \
+	Etar \
+	K9Mail
